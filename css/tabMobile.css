@@ -1,0 +1,37 @@
+/*  响应手机端  */
+.list{
+    height: 3075px;
+}
+.list a{
+    width: 45px;
+}
+.twopage_content{
+    position: relative;
+    left: 45px;
+    height: 150px;
+    text-align: center;
+}
+.bread{
+    position: relative;
+    left: 1%;
+    bottom: -8%;
+}
+.twopage_test{
+    width: 92%;
+    position: relative;
+    left: 45px;
+}
+.twopage_h2{
+    width: 92%;
+    position: relative;
+    left: 45px;
+}
+.input input{
+    width: 36%;
+    max-width: 100%;
+}
+.twopage_test2,.twopage_test3,.twopage_test4,.twopage_test6{
+    width: 92%;
+    position: relative;
+    left: 45px;
+}

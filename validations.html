@@ -1,0 +1,460 @@
+
+<body><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Validations</title>
+    <link rel="shortcut icon" href="img/heart.png" type="image/png" />
+    <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" href="css/validations.css" rel="stylesheet">
+</head>
+    <!-- 顶部导航栏-->
+    <nav class="navbar navbar-default nav_head">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="validations.html">
+                    <i class="glyphicon glyphicon-heart-empty nav_brand_word" aria-hidden="true"></i>
+                    <span class="nav_brand_word">Flatty</span>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <button type="button" class="btn btn-default nav_btn" aria-label="Left Align">
+                        <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+                    </button>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <form class="navbar-form navbar-right">
+                        <div class="form-group">
+                            <input type="text" name="search" class="form-control navbar_input" placeholder="Search">
+                            <span class="glyphicon glyphicon-search navbar_search" aria-hidden="true"></span>
+                        </div>
+                    </form>
+                    <li class="dropdown nav_btn2">
+                        <a class="dropdown-toggle nav_btn_color" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="glyphicon glyphicon-adjust" aria-hidden="true" style="color: white"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <div class="color-title">Body color</div>
+                            <li><a href="#">Light<small>(default)</small></a></li>
+                            <li><a href="#">Dark</a></li>
+                            <li><a href="#">Dark blue</a></li>
+                            <li role="separator" class="divider"></li>
+                            <div class="color-title">Contrast color</div>
+                            <li><a href="#">Red<small>(default)</small></a></li>
+                            <li><a href="#">Blue</a></li>
+                            <li><a href="#">Orange</a></li>
+                            <li><a href="#">Purple</a></li>
+                            <li><a href="#">Green</a></li>
+                            <li><a href="#">Muted</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Dark</a></li>
+                            <li><a href="#">Pink</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown nav_ili">
+                        <a class="dropdown-toggle nav_ili_btn" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="glyphicon glyphicon-signal" style="color: #fff;font-size: 11px;"></i>
+                            <div class="label">5</div>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">John Doe signed up<small>just now</small></a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">New Order #002<small>3 minutes ago</small></a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">America Leannon commented Flatty<br>with veeery long text.<small>1 hour ago</small></a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Jane Doe signed up<small>last week</small></a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">New Order #001<small>l year ago</small></a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">All notifications</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown nav_li">
+                        <a href="#" class="dropdown-toggle nav_li_a" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <img src="img/avatar.jpg" alt="Mila Kunis" style="width: 23px;height: 23px;">
+                            Mila Kunis<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Profile</a></li>
+                            <li><a href="#">Settings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Sign out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 导航结束-->
+
+    <!-- 侧边导航-->
+    <div class="twopage_left">
+        <div class="container-fluid">
+            <div class="list-group list">
+                <a href="#" class="list-group-item">
+                    <i class="glyphicon glyphicon-briefcase"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="#" class="list-group-item drop1">
+                    <i class="glyphicon glyphicon-pencil" style="color: #f34541"></i>
+                    <span>Forms<span class="glyphicon glyphicon-menu-down down" style="color:#f34541"></span></span>
+                </a>
+                <a href="#" class="list-group-item dropdn1">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>Form styles and features</span>
+                </a>
+                <a href="#" class="list-group-item dropdn1">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>Form components</span>
+                </a>
+                <a href="validations.html" class="list-group-item dropdn1">
+                    <i class="glyphicon glyphicon-chevron-right" style="color: #f34541"></i>
+                    <span>Validations</span>
+                </a>
+                <a href="#" class="list-group-item dropdn1">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>WIzard</span>
+                </a>
+                <a href="#" class="list-group-item drop2">
+                    <i class="glyphicon glyphicon-tint"></i>
+                    <span>UI Elements & Widgets<span class="glyphicon glyphicon-menu-down down"></span></span>
+                </a>
+                <a href="#" class="list-group-item dropdn2">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>UI Elements</span>
+                </a>
+                <a href="#" class="list-group-item dropdn2">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>Widgets</span>
+                </a>
+                <a href="#" class="list-group-item">
+                    <i class="glyphicon glyphicon-star"></i>
+                    <span>Buttons & lcons</span>
+                </a>
+                <a href="#" class="list-group-item drop3">
+                    <i class="glyphicon glyphicon-cog"></i>
+                    <span>Components<span class="glyphicon glyphicon-menu-down down"></span></span>
+                </a>
+                <a href="#" class="list-group-item dropdn3">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>Charts</span>
+                </a>
+                <a href="#" class="list-group-item dropdn3">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>Address book</span>
+                </a>
+                <a href="#" class="list-group-item dropdn3">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>Chats</span>
+                </a>
+                <a href="#" class="list-group-item dropdn3">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>In-place editing</span>
+                </a>
+                <a href="#" class="list-group-item dropdn3">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>File trees</span>
+                </a>
+                <a href="#" class="list-group-item dropdn3">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>Fileupload</span>
+                </a>
+                <a href="#" class="list-group-item dropdn3">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>Todo list</span>
+                </a>
+                <a href="#" class="list-group-item dropdn3">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>WYSIWYG</span>
+                </a>
+                <a href="tables.html" class="list-group-item">
+                    <i class="glyphicon glyphicon-equalizer"></i>
+                    <span>Tables</span>
+                </a>
+                <a href="#" class="list-group-item">
+                    <i class="glyphicon glyphicon-th"></i>
+                    <span>Grid</span>
+                </a>
+                <a href="#" class="list-group-item">
+                    <i class="glyphicon glyphicon-font"></i>
+                    <span>Typography</span>
+                </a>
+                <a href="#" class="list-group-item">
+                    <i class="glyphicon glyphicon-calendar"></i>
+                    <span>Calendar</span>
+                </a>
+                <a href="#" class="list-group-item drop4">
+                    <i class="glyphicon glyphicon-book"></i>
+                    <span>Example pages<span class="glyphicon glyphicon-menu-down down"></span></span>
+                </a>
+                <a href="#" class="list-group-item dropdn4">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>Invoice</span>
+                </a>
+                <a href="#" class="list-group-item dropdn4">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>Gallery</span>
+                </a>
+                <a href="#" class="list-group-item dropdn4">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>Timeline</span>
+                </a>
+                <a href="#" class="list-group-item dropdn4">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>Pricing tables</span>
+                </a>
+                <a href="#" class="list-group-item dropdn4">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>User profile</span>
+                </a>
+                <a href="#" class="list-group-item dropdn4">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>404 Error</span>
+                </a>
+                <a href="#" class="list-group-item dropdn4">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>500 Error</span>
+                </a>
+                <a href="#" class="list-group-item dropdn4">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>Sign in</span>
+                </a>
+                <a href="#" class="list-group-item dropdn4">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>FAQ</span>
+                </a>
+                <a href="#" class="list-group-item dropdn4">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>Orders</span>
+                </a>
+                <a href="#" class="list-group-item dropdn4">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>Search results</span>
+                </a>
+                <a href="#" class="list-group-item dropdn4">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>Blank page</span>
+                </a>
+                <a href="#" class="list-group-item drop">
+                    <i class="glyphicon glyphicon-cog"></i>
+                    <span>Layouts<span class="glyphicon glyphicon-menu-down down"></span></span>
+                </a>
+                <a href="#" class="list-group-item dropdn">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>Closed navigation</span>
+                </a>
+                <a href="fixed_header.html" class="list-group-item dropdn">
+                    <i class="glyphicon glyphicon-chevron-right" style="color: #f34541"></i>
+                    <span>Fixed header</span>
+                </a>
+                <a href="#" class="list-group-item dropdn">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>Fixed navigation</span>
+                </a>
+                <a href="#" class="list-group-item dropdn">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>Fixed navigation & header</span>
+                </a>
+                <a href="#" class="list-group-item">
+                    <i class="glyphicon glyphicon-share-alt"></i>
+                    <span>Email tempaltes</span>
+                </a>
+                <a href="#" class="list-group-item drop5">
+                    <i class="glyphicon glyphicon-folder-open"></i>
+                    <span>Four level dropdown<span class="glyphicon glyphicon-menu-down down"></span></span>
+                </a>
+                <a href="#" class="list-group-item dropdn5">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    <span>Second level</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 侧边导航结束-->
+
+    <!-- 正文-->
+    <div class="twopage_right">
+        <div class="twopage_content">
+            <div class="twopage_head">
+                <i class="glyphicon glyphicon-ok"></i>
+                <span class="twopage_span">Validations</span>
+            </div>
+            <ol class="bread">
+                <li><a href="#"><span class="glyphicon glyphicon-align-left" aria-hidden="true"></span></a></li>
+                <span class="glyphicon glyphicon-menu-right icon" aria-hidden="true"></span>
+                <li><a href="#">Forms</a></li>
+                <span class="glyphicon glyphicon-menu-right icon" aria-hidden="true"></span>
+                <li class="word">Validations</li>
+            </ol>
+        </div>
+        <div class="twopage_test" id="twopage_test1">
+            <div class="navbar navbar-default daohan">
+                <div class="container-fluid">
+                    <span>Basic validations</span>
+                    <div class="navbar-text navbar-right">
+                        <span class="glyphicon glyphicon-remove button1" aria-hidden="true" id="button1"></span>
+                        <span class="glyphicon glyphicon-chevron-up button2" aria-hidden="true" id="button2"></span>
+                    </div>
+                </div>
+            </div>
+            <form class="form-horizontal" id="form1" action="" method="post">
+                <div class="form-group input">
+                    <label for="inputName3" class="col-sm-2 control-label name">Name</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputName3" placeholder="Name">
+                        <p for="inputName3" class="error">This field is required.</p>
+                    </div>
+                </div>
+                <div class="form-group input">
+                    <label for="inputEmail3" class="col-sm-2 control-label email">E-mail</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail3" placeholder="E-mail">
+                        <p for="inputName3" class="error">This field is required.</p>
+                    </div>
+                </div>
+                <div class="form-group input">
+                    <label for="inputPassword3" class="col-sm-2 control-label password">Password</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                        <p for="inputName3" class="error">This field is required.</p>
+                    </div>
+                </div>
+                <div class="form-group input">
+                    <label for="inputPassword4" class="col-sm-2 control-label paconfir">Password confirmation</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="inputPassword4" placeholder="Password confirmation">
+                        <p for="inputName3" class="error">This field is required.</p>
+                    </div>
+                </div>
+                <div class="form-group check">
+                    <label for="inputPassword4" class="col-sm-2 control-label agree">Agreee TOS</label>
+                    <div class="col-sm-10">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" name="testCheck">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group input">
+                    <label for="inputName4" class="col-sm-2 control-label birthday">Birthdate</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputName4" placeholder="YYYY-MM-DD">
+                        <p for="inputName3" class="error">This field is required.</p>
+                    </div>
+                </div>
+                <div class="form-group select">
+                    <label class="col-sm-2 control-label son_select">Select</label>
+                    <div class="col-sm-10">
+                        <select style="width:210px;height: 30px;">
+                            <option></option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+            <div class="box-color">
+                <form id="box1">
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-default submit">Test validation</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="twopage_h2">
+            <h2>Custom methods</h2>
+            <small class="muted">You can easily add your own validation methods. These validations are pretty easy to extend.</small>
+        </div>
+        <div class="twopage_test" id="twopage_test2">
+            <div class="navbar navbar-default daohan2">
+                <div class="container-fluid">
+                    <span>Custom validations</span>
+                    <div class="navbar-text navbar-right">
+                        <span class="glyphicon glyphicon-remove button1" aria-hidden="true" id="button3"></span>
+                        <span class="glyphicon glyphicon-chevron-up button2" aria-hidden="true" id="button4"></span>
+                    </div>
+                </div>
+            </div>
+            <form class="form-horizontal" id="form2" action="" method="post">
+                <div class="form-group input place">
+                    <label for="inputName6" class="col-sm-2 control-label">Secret
+                        <small class="muted">Past,secret is "buga"</small>
+                    </label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputName6" placeholder="Secret">
+                        <p for="inputName3" class="error">This field is required.</p>
+                    </div>
+                </div>
+                <div class="form-group input">
+                    <label for="inputtext5" class="col-sm-2 control-label">Numbers</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputtext5" placeholder="Numbers">
+                        <p for="inputName3" class="error">This field is required.</p>
+                    </div>
+                </div>
+                <div class="form-group input">
+                    <label for="inputtext6" class="col-sm-2 control-label">IP</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputtext6" placeholder="IP">
+                        <p for="inputName3" class="error">This field is required.</p>
+                    </div>
+                </div>
+                <div class="form-group input place">
+                    <label for="inputtext7" class="col-sm-2 control-label">URL
+                        <small class="muted">http://</small>
+                    </label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputtext7" placeholder="URL">
+                        <p for="inputName3" class="error">This field is required.</p>
+                    </div>
+                </div>
+                <div class="form-group input place">
+                    <label for="inputPassword8" class="col-sm-2 control-label">
+                        US phone number
+                        <small class="muted">212-999-0983</small>
+                    </label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputPassword8" placeholder="US phone number">
+                        <p for="inputName3" class="error">This field is required.</p>
+                    </div>
+                </div>
+                <div class="form-group input">
+                    <label for="inputName5" class="col-sm-2 control-label">IBAN</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputName5" placeholder="IBAN">
+                        <p for="inputName3" class="error">This field is required.</p>
+                    </div>
+                </div>
+                <div class="form-group input place">
+                    <label for="inputName7" class="col-sm-2 control-label">
+                        VIN
+                        <small class="muted">1M8GDM9AXKP042788</small>
+                    </label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputName7" placeholder="VIN">
+                        <p for="inputName3" class="error">This field is required.</p>
+                    </div>
+                </div>
+            </form>
+            <div class="box-color" id="box2">
+                <form>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-default submit subcheck">Test validation</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/validations.js"></script>
+</body>
+</html>
