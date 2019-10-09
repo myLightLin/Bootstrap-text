@@ -170,7 +170,7 @@
                     <i class="glyphicon glyphicon-chevron-right"></i>
                     <span class="">WYSIWYG</span>
                 </a>
-                <a href="index.html" class="list-group-item">
+                <a href="tables.html" class="list-group-item">
                     <i class="glyphicon glyphicon-equalizer"></i>
                     <span class="">Tables</span>
                 </a>
